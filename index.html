@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RCP App</title>
+</head>
+<body>
+  <div id="tela-de-inicio">
+    <h1>RCP</h1>
+    <button id="btn-rcp">Iniciar RCP</button>
+  </div>
+  <div id="tela-de-instrucoes" style="display:none;">
+    <h1>Instruções de RCP</h1>
+    <p>1. Verifique se a vítima está consciente.</p>
+    <audio id="audio-instrucao-1" src="instrucao-1.mp3"></audio>
+    <p>2. Verifique se a vítima está respirando.</p>
+    <audio id="audio-instrucao-2" src="instrucao-2.mp3"></audio>
+    <p>3. Inicie a compressão torácica.</p>
+    <audio id="audio-instrucao-3" src="instrucao-3.mp3"></audio>
+    <button id="btn-simular">Simular RCP</button>
+  </div>
+  <div id="tela-de-simulacao" style="display:none;">
+    <h1>Simulação de RCP</h1>
+    <p>Você está simulando uma situação de RCP.</p>
+    <button id="btn-comprimir">Comprimir tórax</button>
+    <button id="btn-ventilar">Ventilar paciente</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
